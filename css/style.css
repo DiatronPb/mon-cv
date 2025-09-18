@@ -1,0 +1,146 @@
+body {
+    font-family: 'Montserrat', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap : 4%;
+    background-color: lightskyblue;
+    padding: 20px;
+    margin: 0;
+}
+
+nav ul li{
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;   
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.cv-container {
+    margin: 20px 20% 0 20%;
+}
+
+.cv-container hr{
+    width: 85%;
+    margin: 20px auto;
+    border: 2px solid lightskyblue;
+    border-radius: 5px;
+}
+
+.presentation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.presentation-left {
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.presentation-left img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+.formation table{
+    width: 100%;
+}
+
+.formation tbody th, .formation tbody td{
+    padding-top: 10px;
+    
+}
+
+.experience ul li,
+.competences ul li {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.album{
+    width: 100%;
+}
+
+.album-images {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;         /* scroll horizontal si ça dépasse */
+    padding-bottom: 8px;      /* espace pour la scrollbar */
+}
+
+.album-images img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px; /* optionnel, coins arrondis */
+    margin: 10px;         /* optionnel, espace entre les images */
+}
+
+
+.calendrier {
+    width: 100%;
+    overflow-x: auto; /* active la barre de scroll horizontale si besoin */
+}
+
+.calendrier table {
+    width: 100%;
+    border-collapse: collapse; /* pour éviter les doubles bordures */
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.calendrier th, .calendrier td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #eee;
+    min-width: 80px;
+    height: 60px;
+}
+
+.calendrier th {
+    background: lightskyblue;
+    color: #003366;
+}
+
+.contact ul li{
+    margin-bottom: 12px;
+}
+
+.logo{
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.iframe iframe{
+    width:100%;
+    height: 400px;
+    border: 2px solid lightskyblue;
+    border-radius: 8px;
+}
